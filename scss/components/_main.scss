@@ -17,20 +17,6 @@ body {
   @include element-invisible;
 }
 
-.sa-logo {
-  opacity: 0.4;
-  -webkit-animation: glow 3s ease-in-out forwards;
-  animation: glow 3s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-.sa-logo:hover {
-  opacity: 1;
-  -webkit-transition: opacity 1s linear;
-  transition: opacity 1s linear;
-}
-
 @keyframes glow {
     0%   { opacity: .4; }
     50%  { opacity: .9; }
@@ -45,10 +31,10 @@ body {
 
 .title {
   opacity: .2;
-  -webkit-animation: glow2 3s ease-in-out forwards;
-  animation: glow2 3s ease-in-out forwards;
-  -webkit-animation-delay: 3.25s;
-  animation-delay: 3.25s;
+  -webkit-animation: glow2 1s ease-in-out forwards;
+  animation: glow2 1s ease-in-out forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @keyframes glow2 {
@@ -125,16 +111,6 @@ body {
 
 .white {
   color: $off-white;
-}
-
-.grey {
-  color: $off-white;
-  opacity: .6;
-}
-
-.logo img {
-  margin: 2em;
-  height: 40px;
 }
 
 .top-bg {
