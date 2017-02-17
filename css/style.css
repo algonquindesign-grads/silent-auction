@@ -985,7 +985,7 @@ small, .milli {
 
 .micro {
   font-size: 0.8784rem;
-  line-height: 1.3000rem; }
+  line-height: 0.6rem; }
 
 ul {
   padding-left: 1em; }
@@ -1702,7 +1702,7 @@ body {
   margin: 0 12%; }
 
 .white {
-  color: #f8f2e9; }
+  color: white; }
 
 .coral {
   color: #f16462; }
@@ -1731,23 +1731,19 @@ body {
   line-height: 1.25em; }
 
 .desaturate {
-  opacity: .8;
+  opacity: .6;
   transition: opacity 0.5s linear;
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%);
   transition: filter 0.5s linear; }
 
 .desaturate:hover {
   opacity: 1;
   transition: opacity 0.5s linear;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%); }
+}
 
 .desaturate:active {
   opacity: 1;
   transition: opacity 0.5s linear;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%); }
+ }
 
 .center {
   text-align: center; }
@@ -1761,8 +1757,7 @@ body {
 
 .clock-title {
   font-size: .75em;
-  color: #f8f2e9;
-  opacity: .7;
+  color: white;
   margin-bottom: 0em; }
 
 .clock-width {
@@ -1774,8 +1769,7 @@ body {
 
 .clock-number {
   font-size: 1.5em;
-  color: #f8f2e9;
-  opacity: .5; }
+  color: white; }
 
 .smalltext {
   font-size: .65em;
@@ -1786,6 +1780,14 @@ body {
   background-color: #f16462;
   margin: 0;
   margin-top: 1.5em;
+}
+
+.grey-section {
+  background-color: #464646;
+}
+
+.header {
+  margin-top: 1em;
 }
 
 .sa-btn {
@@ -1808,7 +1810,8 @@ body {
 
 .sa-form-wrapper {
   text-align: center;
-  margin: 0 10%; }
+  padding: 0 10%;
+  padding-bottom: 2em;}
 
 .sa-form {
   max-width: 30em;

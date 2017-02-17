@@ -7,11 +7,11 @@ layout: default
 
 <div class="grid padded-container pad-t-1-2 coral-section">
 
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-left">
-      <p class="milli">Thanks for supporting our grads! <br> Select your item and place your bid using the form below.</p>
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 align-switch-left">
+      <p class="kilo pad-t-1-2 pad-b-1-2">Thanks for supporting our grads! <br> Select your item and place your bid using the form below.</p>
   </div>
 
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 align-switch-right">
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 align-switch-right">
     <div class="clock-width">
       <p class="clock-title pad-t-1-2 pad-b-1-2">Limited time left!</p>
       <div id="clockdiv">
@@ -39,7 +39,7 @@ layout: default
 <div class="padded-container">
   <div class="grid pad-t">
     {% for items in site.data.items %}
-      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b desaturate">
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-5 unit-xl-1-6 center pad-b">
         <img class="image" src="{{site.baseurl}}/img/{{items.image}}" alt="">
          <div class="text-container">
             <p class="tera bold clear-space coral">{{items.number}}</p>
@@ -47,25 +47,22 @@ layout: default
             <p class="kilo clear-space">{{items.description}}</p>
             <p class="micro italic push-t clear-space line-height-small">{{items.value}}</p>
             <p class="micro italic clear-space line-height-small">{{items.suggestion}}</p>
-            <a class="unit sa-btn sa-btn-bid push-t js-item" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
+            <a class="unit sa-btn sa-btn-bid push-t js-item desaturate" id="{{items.number}}" href="#{{items.number}}">Place Bid</a>
         </div><!--/text-container-->
       </div> <!--/unit-->
     {% endfor %}
   </div> <!--/grid-->
 </div><!--/padded-container-->
 
-<div class="grid">
+<div class="grid grey-section pad-t-2 pad-b-2">
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 center ">
     <img src="img/place-your-bid.svg" alt="place your bid">
   </div>
 </div>
 
-
-
-
 <!--Google Form-->
 
-<div class="sa-form-wrapper" id="form-top">
+<div class="sa-form-wrapper grey-section" id="form-top">
   <div class="sa-form grid">
     <div class="unit unit-xs-1">
 
@@ -102,11 +99,11 @@ target="hidden_iframe" onsubmit="submitted=true;">
         <input class="push-t sa-checkbox text-left" type="checkbox" name="entry.132148076" value="agreed" required>
     </div>
     <div class="unit xs-1-2 text-left">
-        <label class="white sa-terms micro" for="entry.132148076">If my bid is successful, I agree to pay the full amount in cash to the Framework 2016 Fundraising Lead at Algonquin College by March 31st, 2016.</label>
+        <label class="white sa-terms micro" for="entry.132148076">If my bid is successful, I agree to pay the full amount in cash to the Studion N Fundraising Lead at Algonquin College by March 17th, 2017.</label>
     </div>
     <div class="unit xs-3-8 text-right">
       <!-- Submit Button -->
-      <input class="push-t sa-btn" type="submit" value="submit">
+      <input class="push-t sa-btn white" type="submit" value="submit">
     </div>
   </div>
 
