@@ -5,8 +5,12 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
-body{
-  font-family: sans-serif;
+body {
+  font-family: 'Overpass', sans-serif;
+}
+
+.coral-section {
+  background-color: $coral;
 }
 
 .sa-noscript {
@@ -201,8 +205,7 @@ body{
 
 .clock-title {
   font-size: .75em;
-  color: $off-white;
-  opacity: .7;
+  color: white;
   margin-bottom: 0em;
 }
 
@@ -217,8 +220,7 @@ body{
 
 .clock-number {
   font-size: 1.5em;
-  color: $off-white;
-  opacity: .5;
+  color: white;
 }
 
 .smalltext {
@@ -235,17 +237,17 @@ body{
     text-decoration: none;
     display:inline-block;
     font-weight: lighter;
-    color: $black;
-    background-color: $off-white;
+    color: white;
+    background-color: $coral;
     letter-spacing: 1.5px;
 }
 
 .sa-btn:hover {
-  background-color: #e7d1b1;
+  background-color: $coral;
 }
 
 .sa-btn:active {
-  background-color: #daba8b;
+  background-color: $coral;
 }
 
 .sa-form-wrapper {
@@ -332,4 +334,3 @@ body{
 @media only screen and (min-width: 80em) {
 
 }
-

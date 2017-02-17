@@ -1,7 +1,7 @@
 - number: 1
   description: $20 gift card
-  sponsor: Starbucks
-  image: starbucks.png
+  sponsor: Shopify
+  image: shopify.png
   value: Value $50.00
   suggestion: Start at $25.00
 
@@ -67,4 +67,3 @@
   image: subway.png
   value: Value $50.00
   suggestion: Start at $25.00
-
